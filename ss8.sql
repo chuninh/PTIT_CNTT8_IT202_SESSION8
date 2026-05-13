@@ -81,7 +81,7 @@ limit 2;
 select emp.emp_name ,emp.email
 from employees emp  
 where salary >(select avg(salary)
-			   from employees emp );
+			   from employees emp);
 
 
 

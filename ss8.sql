@@ -49,7 +49,7 @@ value ('1','Nguyen Van A','1','1990-01-15','1500','1','a@gmail.com'),
  insert into projects
  value ('101','Website Redesign','1','2024-01-01','2024-06-01'),
  ('102','Recruitment System','3','2024-02-01','2024-08-01'),
- ('103','Marketing Campaign','4','2024-03-01','NULL');
+ ('103','Marketing Campaign','4','2024-03-01',NULL);
 
 update employees
 set salary = salary +200

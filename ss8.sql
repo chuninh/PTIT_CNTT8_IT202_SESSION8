@@ -68,7 +68,7 @@ where start_date < '2024-02-01';
 -- Hiển thị emp_name, salary và dept_name của từng nhân viên
 
 select emp.emp_name ,emp.salary,dept.dept_name 
-from employees emp join  Departments dept on emp.dept_id = dept_dept_id;
+from employees emp join  Departments dept on emp.dept_id = emp.dept_id;
 
 -- Lấy thông tin 2 nhân viên có mức lương cao nhất, sắp xếp giảm dần
 
